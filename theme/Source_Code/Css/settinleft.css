@@ -1,0 +1,54 @@
+.typeWindows-1za-n7 {
+    position:relative;
+}
+.wordmark-2iDDfm {
+    display:flex;
+    align-items:center;
+    padding:0 6px;
+    height:calc(100% + 4px);
+    top:-4px;
+    width:fit-content;
+    font-size:14px;
+    font-weight:600;
+    font-family: 'Discord';
+}
+.wordmark-2iDDfm > svg {
+    display:none;
+}
+.wordmark-2iDDfm:after {
+    content:'discord';
+}
+.panels-j1Uci_ > .container-3baos1:not(.vp-audioviz-visualizer) {
+    position: fixed;
+    z-index: 5;
+    bottom: 10px; left: 2.75px;
+    margin-bottom: 0;
+    padding-left: 0;
+    align-items: flex-end;
+}
+
+.scroller-2TZvBN { margin-bottom: 175px;}
+
+.container-3baos1 > .flex-1xMQg5:not(.spotify-buttons) {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px 0px 15px;
+    background: var(--background-tertiary) !important;
+}
+
+.canCopy-2VBT7N { display: none; }
+
+.panels-j1Uci_> .container-3baos1> .avatarWrapper-2yR4wp {
+    position: fixed;
+    z-index: 5;
+    bottom: 125px;
+    left: 11px;
+}
+
+.avatarWrapper-2yR4wp> .avatar-SmRMf2.wrapper-3t9DeA {padding: 4px; }
+.container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv, .pageWrapper-1PgVDX, .wrapper-2qzCYF {z-index: 6;}
+
+.emptyCard-1RJw8n {
+  background: transparent;
+}
+

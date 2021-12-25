@@ -1,1 +1,1 @@
-# theme
+# Discord Themes

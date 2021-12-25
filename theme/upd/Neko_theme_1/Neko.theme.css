@@ -1,0 +1,32 @@
+/**
+ * @name Neko
+ * @author Xasya
+ * @version ersion
+ * @description Neko one love xD
+ * @authorLink https://dsc.bio/Xasya
+ * @authorId 629971688620163093
+ * (ru) + Темка с неко :D
+*/
+
+@import url(https://xasya.github.io/theme/Source_Code/Css/gorawgit.css);
+@import url(https://xasya.github.io/theme/Source_Code/Font/DiscordFont.css);
+
+:root {
+    --background-image: url(https://xasya.github.io/theme/upd/Neko_theme_1/BG.jpg);
+    --friends-icon: url(https://xasya.github.io/theme/upd/Neko_theme_1/Fr_Ico.jpg);
+    --friends-icon-position: top right;
+    --friends-icon-zoom: 180%;
+    --main-color: rgb(67, 181, 129); 
+    --main-transparency: rgba(0, 0, 0, 0.76);
+    --unread-server-animation: rainbow;
+    --hover-list-bg-color: rgba(255,255,255, .15);
+    --border-lines-color: hsla(0,0%,100%,.1);
+    --scroll-bar-color: rgba(255,255,255, .15);
+    --font-size: 16px;
+    --selected-text-voice-color: #f6f6f7;
+    --text-hover-color: #b9bbbe;
+    --voice-hover-color: #f6f6f7;
+    --unread-text-color: #dcddde;
+    --options-transparency: transparent;
+    --background-tertiary: transparent;
+}
