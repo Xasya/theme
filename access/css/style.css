@@ -138,6 +138,11 @@ div.menu-p ul li a:hover {
 	border: 2px solid #f06363;
 	border-radius: 8px;
 	padding: 0px;
+	transition: .5s;
+}
+
+.preview img:hover {
+	border: 2px solid #7863f0;
 }
 
 .description {
@@ -166,6 +171,10 @@ div.menu-p ul li a:hover {
 	color: rgb(121, 2, 111);
 }
 
+.empty {
+	height: 10vh;
+}
+
 .footer {
 	height: auto !important;
 	height: 10%;
@@ -174,7 +183,7 @@ div.menu-p ul li a:hover {
 	bottom: 0;
 	width: 100%;
 	padding: 10px;
-	background-color: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.6);
 	font-family: sans-serif;
 	color: white;
 	transition: .3s;
