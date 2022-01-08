@@ -1,55 +1,55 @@
 * {
 	box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
-html, body {
-	font-size: 100%;
-	font-family: sans-serif;
+body,
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .bg {
 	background: #25272c;
 	background-size: cover;
 	background-position: center center;
-	background-repeat: no-repeat
+	background-repeat: no-repeat;
 }
 
-section {
-	height: 100vh;
-}
 
-header {
+.menu {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	height: 4em;
-	box-shadow: 0 5px 15px rgba(0,0,0,.2);	
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
 }
 
-.logo img {
-	margin-top: .3em;
+.logo-img {
+	margin-top: .2em;
 	margin-left: 2.3em;
-	max-width: 3.5em;
+	max-width: 3.2em;
 	height: auto !important;
 }
 
-div.logo .logo-text {
+.logo-text {
 	position: absolute;
 	top: .3em;
 	left: 3.5em;
 	font-size: 2em;
 	color: white;
-	
 }
 
-nav {
-   align-self: center;
-   margin: 0 0.8em 0 0;
+.menu-p {
+	align-self: center;
+	font-family: sans-serif;
+	margin: 0 0.8em 0 0;
 }
 
-div.menu ul {
+div.menu-p ul {
 	display: flex;
 	flex-flow: nowrap;
 	flex-direction: row;
@@ -59,8 +59,8 @@ div.menu ul {
 	list-style-type: none;
 }
 
-div.menu ul li a {
-	padding: 1.4em 20px;
+div.menu-p ul li a {
+	padding: 1.45em 20px;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #ffffff;
@@ -68,48 +68,52 @@ div.menu ul li a {
 	transition: .5s;
 }
 
-div.menu ul li a:hover {
+div.menu-p ul li a:hover {
 	background: rgba(234, 77, 255, 0.26);
 	color: rgb(255, 255, 255);
-	transition: .5s
+	transition: .5s;
 }
 
 [data-tooltip] {
 	position: relative;
 }
+
 [data-tooltip]::after {
 	content: attr(data-tooltip);
 	position: absolute;
 	font-size: 0.7em;
 	width: auto;
 	max-width: 100%;
-	left: 0; top: 0;
-	background: #000000;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.4);
 	color: #fff;
 	padding: 0.8em;
-	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 	border-radius: 8px;
 	pointer-events: none;
 	opacity: 0;
-	transition: .5s;
-	z-index: 2;
-} 
+	transition: .4s;
+}
+
 [data-tooltip]:hover::after {
 	opacity: 1;
 	top: 5.7em;
+	backdrop-filter: blur(2px);
 }
 
 .content {
-    margin: 10px auto 20px;
-    display: block;
-    position: relative;
-    color: white;
+	margin: 10px auto 20px;
+	display: block;
+	position: relative;
+	color: white;
 }
 
 .count-th {
 	position: absolute;
 	width: auto;
 	left: 2em;
+	font-family: sans-serif;
 	transition: .2s;
 }
 
@@ -117,28 +121,29 @@ div.menu ul li a:hover {
 	font-size: 1.5em;
 }
 
-
 .theme {
 	padding: 3em;
 }
 
 .title {
-    position: relative;
-    font-size: 2.5em;
+	position: relative;
+	font-family: sans-serif;
+	font-size: 2.5em;
 }
 
 .preview img {
 	position: relative;
 	top: 1.5em;
-    width: 800px;
+	width: 800px;
 	border: 2px solid #f06363;
 	border-radius: 8px;
-    padding: 0px;
+	padding: 0px;
 }
 
 .description {
 	position: relative;
 	top: 1.7em;
+	font-family: sans-serif;
 	font-size: 1.2em;
 }
 
@@ -149,7 +154,7 @@ div.menu ul li a:hover {
 	font-size: 2em;
 	background: #000000;
 	padding: 10px;
-	border:  2px solid #f06363;
+	border: 2px solid #f06363;
 	border-radius: 20px;
 	color: white;
 	text-decoration: none;
@@ -157,27 +162,29 @@ div.menu ul li a:hover {
 }
 
 .download:hover {
-	background:  #f06363;
+	background: #f06363;
 	color: rgb(121, 2, 111);
 }
 
 .footer {
 	height: auto !important;
-	height:10%;
+	height: 10%;
 	position: relative;
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	padding: 10px;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.6);
+	font-family: sans-serif;
 	color: white;
 	transition: .3s;
 	z-index: 20;
 }
 
 .footer:hover {
-	font-size: 1.2em;
+	font-size: 1.1em;
 	padding: 15px;
+	background: rgba(0, 0, 0, 0.9);
 }
 
 .heart {
