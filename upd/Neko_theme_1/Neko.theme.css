@@ -9,13 +9,12 @@
 */
 
 @import url(https://xasya.github.io/theme/Source_Code/Css/gorawgit.css);
-@import url(https://xasya.github.io/theme/Source_Code/Font/DiscordFont.css);
 :root {
-    --background-image: url(https://xasya.github.io/theme/upd/Neko_theme_1/BG.jpg);
-    --friends-icon: url(https://xasya.github.io/theme/upd/Neko_theme_1/Fr_Ico.jpg);
+    --theme-background-image: url(https://xasya.github.io/theme/upd/Neko_theme_1/BG.jpg);
+    --home-icon-image: url(https://xasya.github.io/theme/upd/Neko_theme_1/Fr_Ico.jpg);
     --main-theme-color: rgb(67, 181, 129);
     --theme-transparency: rgba(0, 0, 0, 0.8);
-    --home-icon-image-position: top right;
+    --home-icon-image-position: center center;
     --home-icon-image-zoom: 100%;
     --server-listing-width: 64px;
     --font-size: 100%;
@@ -29,10 +28,10 @@
     --video-screen-button-background-hovor-color: rgba(200, 200, 200, 0.4);
     --video-screen-button-foreground-hovor-color: white;
     --member-listing-role-color: var(--main-theme-color);
-    --small-user-popout-background-image: var(--theme-background-image);
+    --small-user-popout-background-image: transparent;
     --small-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
     --small-user-popout-background-image-position: center;
-    --big-user-popout-background-image: var(--theme-background-image);
+    --big-user-popout-background-image: transparent;
     --big-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
     --big-user-popout-background-image-position: center;
     --code-markup-background-color: rgba(0, 0, 0, 0.6);
