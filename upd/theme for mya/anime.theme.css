@@ -7,10 +7,10 @@
  * @authorId 629971688620163093
 */
 
-@import url(https://xasya.github.io/theme/Source_Code/Font/DiscordFont.css);
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
 :root {
-    --background-image: url(https://xasya.github.io/theme/upd/theme%20for%20mya/BG.jpg);
-    --friends-icon: url(https://xasya.github.io/theme/upd/theme%20for%20mya/Fr_Ico.jpg);
+    --theme-background-image: url(https://xasya.github.io/theme/upd/theme%20for%20mya/BG.jpg);
+    --home-icon-image: url(https://xasya.github.io/theme/upd/theme%20for%20mya/Fr_Ico.jpg);
     --main-theme-color: rgb(67, 181, 129);
     --theme-transparency: rgba(0, 0, 0, 0.8);
     --home-icon-image-position: top top;

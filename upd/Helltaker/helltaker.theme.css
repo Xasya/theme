@@ -7,14 +7,14 @@
  * @authorId 629971688620163093
 */
 
-@import url(https://xasya.github.io/theme/Source_Code/Font/DiscordFont.css);
-:root {
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
+ :root {
     --theme-background-image: url(https://xasya.github.io/theme/upd/Helltaker/BG.jpg);
     --home-icon-image: url(https://xasya.github.io/theme/upd/Helltaker/Fr_ico.png);
     --main-theme-color: rgb(67, 181, 129);
     --theme-transparency: rgba(0, 0, 0, 0.8);
     --home-icon-image-position: center center;
-    --home-icon-image-zoom: 100%;
+    --home-icon-image-zoom: 220%;
     --server-listing-width: 64px;
     --font-size: 100%;
     --mention-color: rgba(250, 166, 26, 0.05);
