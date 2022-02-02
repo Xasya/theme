@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Темы · ຕιχคìL</title>
     <link rel="shortcut icon" href="https://xasya.github.io/access/images/santa-neko-s-mini.png">
     <link rel="stylesheet" href="./access/css/style.css">
@@ -13,7 +14,7 @@
     <script src="https://xasya.github.io/sc/access/js/mouse-animate.js"></script>
 
     <!-- По идее отключени функц клавишь и контексного меню -->
-    <script src="https://xasya.github.io/access/js/key_off.js"></script>
+    <script src="https://xasya.github.io/access/js/kesy_off.js"></script>
     <script src="https://xasya.github.io/access/js/con_menu_off.js"></script>
 
 </head>
@@ -21,21 +22,25 @@
 <body>
     <div>
 
+
         <div class="menu">
-            <div>
-                <a href="https://xasya.github.io/xs"><img class="logo-img" src="https://xasya.github.io/access/images/santa-neko-s-mini.png"></a>
-                <p class="logo-text">ຕιχคìL | Темы</p>
-            </div>
+            <a href="https://xasya.github.io/xs"><img class="logo-img" src="https://xasya.github.io/access/images/santa-neko-s-mini.png"></a>
+            <p class="logo-text">ຕιχคìL</p>
             <div class="menu-p">
-                <nav>
-                    <ul>
-                        <li><a href="https://xasya.github.io/" data-tooltip="Это то, о чём вы подумали спартак лох кста))">главная</a></li>
-                        <li><a href="#" data-tooltip="Ты тутось">темы</a></li>
-                        <li><a href="https://xasya.github.io/osu" data-tooltip='Это "мой" скин'>osu</a></li>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="https://Xasya.github.io/" data-tooltip="Кхм, ага">главная</a></li>
+                        <li><a class="menu__item" href="https://xasya.github.io/theme/" data-tooltip="Темы дс мои)">темы</a></li>
+                        <li><a class="menu__item" href="#" data-tooltip='Это "мой" скин'>osu</a></li>
                     </ul>
-                </nav>
+                </div>
             </div>
         </div>
+
         <div class="empty"></div>
         <div class="content">
             <p class="count-th">Кол-во тем сейчас на сайте: 5</p>
