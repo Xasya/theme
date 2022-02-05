@@ -53,12 +53,13 @@ html {
     pointer-events: none;
     opacity: 0;
     transition: .4s;
+    z-index: 200;
 }
 
 [data-tooltip]:hover::after {
     opacity: 1;
     top: 5.7em;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(4px);
 }
 
 .theme {
@@ -133,12 +134,13 @@ html {
 }
 
 .download {
+    display: inline-flex;
     position: relative;
     top: 0;
     font-size: 2em;
     background: #000000;
     padding: 10px;
-    border: 2px solid #f06363;
+    border: 2px solid #f063638e;
     border-radius: 20px;
     color: white;
     text-decoration: none;
@@ -146,8 +148,32 @@ html {
 }
 
 .download:hover {
-    background: #f06363;
-    color: rgb(121, 2, 111);
+    border-radius: 24px;
+    background: rgb(36, 16, 34);
+}
+
+.open-css {
+    position: relative;
+    background: #000000;
+    color: white;
+    border: 2px solid #f063638e;
+    font-size: 1.5em;
+    border-radius: 20px;
+    padding: 14px;
+    top: 0;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.open-css:hover {
+    border-radius: 24px;
+    background: rgb(36, 16, 34);
+}
+
+.buttons {
+    display: inline-flex;
+    align-items: center;
 }
 
 .empty {
