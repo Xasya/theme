@@ -1,16 +1,23 @@
 /**
  * @name Chika vs bedrock
  * @author Xasya
- * @version ersion
- * @authorLink https://dsc.bio/xasya
+ * @version 4
+ * @authorLink https://neko.fan
  * @authorId 629971688620163093
+ * @source https://github.com/Xasya/theme/tree/main/upd/chika-vs-bedrock
+ * @updateUrl https://raw.githubusercontent.com/Xasya/theme/main/upd/chika-vs-bedrock/chica-vs-bedrock-gif.theme.css
 */
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
 
-@import url(https://xasya.github.io/theme/upd/chika-vs-bedrock/main.css);
 :root {
-    --server-listing-width: 64px;
+    --theme-background-image: url(https://xasya.github.io/theme/upd/chika-vs-bedrock/Chika-Vs-Bedrock.gif);
+    --home-icon-image: url(https://xasya.github.io/theme/upd/chika-vs-bedrock/Fr_Ico.jpg);
     --main-theme-color: rgb(67, 181, 129);
     --theme-transparency: rgba(0, 0, 0, 0.8);
+    --home-icon-image-position: right center;
+    --home-icon-image-zoom: 170%;
+    --server-listing-width: 64px;
+    --font-size: 100%;
     --mention-color: rgba(250, 166, 26, 0.05);
     --mention-sider: rgba(250, 166, 26, 1);
     --mention-hover-color: rgba(250, 166, 26, 0.08);
@@ -61,5 +68,5 @@
     --reaction-emoji-background-color: rgba(0, 0, 0, 0);
     --reaction-emoji-border-color: 1px solid transparent;
     --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
-    --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
+    --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2)
 }
